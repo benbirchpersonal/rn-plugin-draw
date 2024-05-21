@@ -1,22 +1,21 @@
 {
+  "author": "Ben",
+  "name": "RemDraw",
+  "description": "allows the user to draw inside a rem",
+  "enableOnMobile": false,
+  "id": "Ben-fvi07k5",
+  "repoUrl": "https://github.com/benbirchpersonal/rn-plugin-draw",
   "manifestVersion": 1,
-  "id": "plugin_template",
-  "name": "Plugin Template",
-  "author": "remnote",
-  "repoUrl": "",
   "version": {
     "major": 0,
     "minor": 0,
     "patch": 1
   },
-  "theme": [],
-  "enableOnMobile": false,
-  "description": "",
   "requestNative": false,
   "requiredScopes": [
     {
       "type": "All",
-      "level": "Read"
+      "level": "ReadCreateModify"
     }
   ]
 }
